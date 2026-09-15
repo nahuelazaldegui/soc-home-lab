@@ -153,9 +153,9 @@ compromising user account `victima` using password `root1`.
 
 | Screenshot | Description |
 |------------|-------------|
-| ![hydra](screenshots/01-hydra-output.png) | Hydra finding valid credentials |
-| ![wazuh-discover](screenshots/02-wazuh-discover-alert.png) | Wazuh Discover — Rule 2502 Level 10 |
-| ![threat-hunting](screenshots/03-threat-hunting-brute-force.png) | Threat Hunting — MITRE Brute Force |
-| ![json-detail](screenshots/04-alert-json-detail.png) | Alert JSON with full field mapping |
-| ![auth-log](screenshots/05-auth-log-evidence.png) | Raw auth.log showing attack timeline |
-| ![agent-active](screenshots/06-wazuh-agent-active.png) | Wazuh agent active on victim machine |
+| ![hydra](images/01-hydra-output.png) | Hydra finding valid credentials |
+| ![wazuh-discover](images/02-wazuh-discover-alert.png) | Wazuh Discover — Rule 2502 Level 10 |
+| ![threat-hunting](images/03-threat-hunting-brute-force.png) | Threat Hunting — MITRE Brute Force |
+| ![json-detail](images/04-alert-json-detail.png) | Alert JSON with full field mapping |
+| ![auth-log](images/05-auth-log-evidence.png) | Raw auth.log showing attack timeline |
+| ![agent-active](images/06-wazuh-agent-active.png) | Wazuh agent active on victim machine |
