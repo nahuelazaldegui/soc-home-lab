@@ -15,15 +15,14 @@ All VMs run on VMware Workstation on a Windows 11 host (AMD Ryzen 7 7840HS, 16GB
 
 ## Network Topology
 
-[Kali Linux - Attacker] ──attack──► [Ubuntu Server - Victim]
-192.168.1.40 192.168.1.35
-│
-Wazuh Agent
-│
-▼
-[Wazuh SIEM - Monitor]
-192.168.1.39
-(Dashboard via browser)
+```
+[Kali Linux - Attacker]  ──attack──►  [Ubuntu Server - Victim]
+    192.168.1.40                           192.168.1.35
+                                               │ Wazuh Agent
+                                               ▼
+                                      [Wazuh SIEM - Monitor]
+                                          192.168.1.39
+```
 
 
 ## Tools Used
