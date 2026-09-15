@@ -8,7 +8,7 @@ log analysis, and incident response skills aligned with SOC Level 1 roles.
 | Host | IP | Role |
 |------|----|------|
 | Ubuntu Server 26.04 | 192.168.1.35 | Victim machine + Wazuh Agent |
-| Ubuntu Server 24.04 | 192.168.1.39 | Wazuh Manager + Dashboard (SIEM) |
+| Ubuntu Server 26.04 | 192.168.1.39 | Wazuh Manager + Dashboard (SIEM) |
 | Kali Linux | 192.168.1.40 | Attacker machine |
 
 All VMs run on VMware Workstation on a Windows 11 host (AMD Ryzen 7 7840HS, 16GB RAM).
